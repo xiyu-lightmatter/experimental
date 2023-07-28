@@ -14,5 +14,5 @@ jobs:
 
     - name: Pull a branch
       run: |
-      cd /lm/tools/lm/hw_infra/latest
-      git pull
+        cd /lm/tools/lm/hw_infra/latest
+        git pull
