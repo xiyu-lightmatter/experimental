@@ -12,5 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: ls
-      run: ls /lm/tools/lm/hw_infra
+    - name: Pull a branch
+      run: |
+      cd /lm/tools/lm/hw_infra/latest
+      git pull
